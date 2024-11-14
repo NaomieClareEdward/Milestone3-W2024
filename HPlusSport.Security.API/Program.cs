@@ -12,7 +12,7 @@ builder.Services.AddCors(options =>
         {
             builder.WithOrigins("https://localhost:6002");
         }
-        )
+        );
 });
 var app = builder.Build();
 
