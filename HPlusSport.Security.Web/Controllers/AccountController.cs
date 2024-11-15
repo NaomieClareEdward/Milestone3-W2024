@@ -6,8 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 namespace HPlusSport.Security.Web.Controllers;
-
-
+/* Course:        Web Programming 3
+ * Assessment:    Milestone 3
+ * Created By:    Naomie Edward 2242656
+ * Date:          11/15/2024
+ * Class Name:    AccountController.cs
+ * Description:   Manages user authentication, providing login and logout functionality with database integration, password verification, and cookie-based authentication.  
+ */
 public class AccountController : Controller
 {
     private readonly ShopContext _context;

@@ -3,7 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace HPlusSport.Security.Web.Controllers;
-
+/* Course:        Web Programming 3
+ * Assessment:    Milestone 3
+ * Created By:    Naomie Edward 2242656
+ * Date:          11/15/2024
+ * Class Name:    HomeController.cs
+ * Description:   Serves as the main entry point, rendering the home page and handling error responses with a view model containing request details for troubleshooting.  
+ */
 public class HomeController : Controller
 {
     public IActionResult Index()

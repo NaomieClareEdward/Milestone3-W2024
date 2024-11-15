@@ -5,7 +5,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace HPlusSport.Security.Web.Controllers;
-
+/* Course:        Web Programming 3
+ * Assessment:    Milestone 3
+ * Created By:    Naomie Edward 2242656
+ * Date:          11/15/2024
+ * Class Name:    ShopController.cs
+ * Description:   Handles e-commerce functionality, including displaying categories and products, managing the shopping cart, processing orders, performing searches, and providing administrative views for orders and their details.  
+ */
 [Authorize]
 //[IgnoreAntiforgeryToken(Order = 1001)]
 public class ShopController : Controller
