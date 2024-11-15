@@ -42,7 +42,11 @@ namespace HPlusSport.Security.Identity
             app.UseAuthorization();
 
             app.MapRazorPages();
-
+            app.MapGet("/api/hello", (HttpContext HttpContext) =>
+            {
+                return $"Hello {HttpContext.User?.Identity?.Name}";
+            }).WithOpenApi()
+            .RequireAuthorization();
             app.Run();
         }
     }
